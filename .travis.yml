@@ -3,5 +3,6 @@ jdk:
 - oraclejdk8
 deploy:
   provider: heroku
-  api-key: bbbf0b4e-9be4-4878-a8c1-ee2615e2f0d3
+  api-key:
+    secure: $HEROKU_API_KEY
   app: chiavatti-petclinic
