@@ -81,7 +81,7 @@ public class OwnerControllerTest {
                 .param("city", "London")
                 .param("telephone", "01316761638")
         )
-                .andExpect(redirectedUrlPattern("/owner/*"));
+                .andExpect(redirectedUrlPattern("/owners/*"));
     }
 
     @Test
